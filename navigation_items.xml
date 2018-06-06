@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group
+            android:id="@+id/group"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/my_profile"
+                android:icon="@mipmap/my_profile_icon"
+                android:title="My_profile"
+                android:checked="true"
+                />
+
+            <item
+                android:id="@+id/list_view"
+                android:icon="@mipmap/list_view"
+                android:title="List_view"
+                android:checked="true"
+                />
+            <item
+                android:id="@+id/map_view"
+                android:icon="@mipmap/map_view"
+                android:title="Map_view"
+                android:checked="true"
+                />
+            <item
+                android:id="@+id/view_post"
+                android:icon="@mipmap/view_post"
+                android:title="view_post"
+                android:checked="true"
+                />
+            <item
+                android:id="@+id/logout"
+                android:icon="@mipmap/log_out"
+                android:title="logout"
+                android:checked="true"
+                />
+
+        </group>
+
+</menu>
